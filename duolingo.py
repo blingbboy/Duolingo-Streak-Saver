@@ -30,8 +30,8 @@ WebDriverWait(driver,30).until(EC.presence_of_element_located((By.CSS_SELECTOR,"
 #ENTER YOUR DUOLINGO EMAIL AND PASSOWRD FOR LOGIN
 
 
-driver.find_element_by_css_selector("input[data-test='email-input']").send_keys("enter your email")
-driver.find_element_by_css_selector("input[data-test='password-input']").send_keys("enter password")
+driver.find_element_by_css_selector("input[data-test='email-input']").send_keys("hashemlily3@gmail.com")
+driver.find_element_by_css_selector("input[data-test='password-input']").send_keys("nysmfarts")
 button = driver.find_element_by_css_selector("button[data-test='register-button']")
 driver.execute_script("arguments[0].click();", button)
 time.sleep(20)
